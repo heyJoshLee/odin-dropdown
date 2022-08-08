@@ -1,0 +1,22 @@
+body, 
+html {
+  margin: 0;
+}
+
+nav > ul {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+
+nav {
+background-color: lightcoral;
+color: snow;
+padding: 10px
+}
+
+.dropdown-js-menu {
+  border: 2px solid black;
+}
